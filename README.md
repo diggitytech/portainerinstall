@@ -1,85 +1,31 @@
-DB Tech's Docker and Docker Compose Install
+Diggitytech's Portainer Docker and Docker Compose Install
 ===
 
-## Install Using Root (Non-Root method below)
+## Install Using
 
-To install the newest versions of sudo (optional depending on which script you use), curl, Docker, and docker compose, simply ssh into your server, then clone this repository with: 
-
-```
-git clone https://github.com/dnburgess/dockerinstall.git
-```
 If you don't have git installed, you can run:
 ```
 apt install git
 ```
 
-Change into the new directory:
+To install the newest versions of sudo (optional depending on which script you use), curl, Docker, and docker compose, Portainer simply ssh into your server, then clone this repository with: 
 ```
-cd dockerinstall
-```
-
-Make the file executable:
-```
-chmod +x dockerinstall.sh
-```
-
-Execute the file:
-```
-./dockerinstall.sh
-```
-
-## Install Without Using Root
-
-If you don't want to use root/sudo, you can do the following:
-
-Clone the repository:
-```
-git clone https://github.com/dnburgess/dockerinstall.git
-```
-If you don't have git installed, you can run:
-```
-apt install git
-```
-Change into the new directory:
-```
-cd dockerinstall
-```
-
-Make the file executable:
-```
-chmod +x dockerinstallnoroot.sh
-```
-
-Execute the file:
-```
-./dockerinstallnoroot.sh
-```
-
-## Install Using Root (includes Portainer) 
-
-To install the newest versions of sudo (optional depending on which script you use), curl, Docker, and docker compose, simply ssh into your server, then clone this repository with: 
-
-```
-git clone https://github.com/dnburgess/dockerinstall.git
-```
-If you don't have git installed, you can run:
-```
-apt install git
+git clone https://github.com/diggitytech/portainerinstall.git
 ```
 
 Change into the new directory:
 ```
-cd dockerinstall
+cd portainerinstall
 ```
 
 Make the file executable:
 ```
-chmod +x dockerportainerinstall.sh
+chmod +x portainerinstall.sh
 ```
 
 Execute the file:
 ```
-./dockerportainerinstall.sh
+./portainerinstall.sh
 ```
 
 The Bash Script Explained
